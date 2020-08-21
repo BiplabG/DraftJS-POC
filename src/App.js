@@ -1,26 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import EditorLib from "./EditorLib"
+import "./App.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+    return (
+        <div className='app'>
+            <h2>Draft JS POC</h2>
+            <p>I will try to implement DraftJS with Material UI so that I can use it in the blog.</p>
+            <EditorLib/>
+        </div>
+    )
 }
 
-export default App;
+export default App
